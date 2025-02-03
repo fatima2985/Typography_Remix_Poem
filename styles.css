@@ -84,3 +84,38 @@ body {
     text-transform: uppercase;
     color: black;
 }
+/* For Variation 2: Boldness and Size Modifications */
+.extra-bold {
+    font-weight: 900; /* Very bold */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.bold {
+    font-weight: 700; /* Regular bold */
+}
+
+.normal {
+    font-weight: 400; /* Regular weight */
+}
+
+.large {
+    font-size: 3em; /* Larger text for emphasis */
+}
+
+.medium {
+    font-size: 1.5em; /* Medium-sized text */
+}
+
+.small {
+    font-size: 0.8em; /* Smaller text */
+}
+
+/* Adjust the title of the variation */
+.variation-title {
+    font-size: 1.5em;
+    font-weight: 900;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: black;
+}
