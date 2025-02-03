@@ -1,6 +1,6 @@
 body {
     font-family: "Space Mono", monospace;
-    background-color: rgb(254, 134, 74);
+    background-color: white;
     color: darkblue; /* Strong, single color */
     text-align: center;
     margin: 0;
@@ -9,29 +9,25 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh; /* No scrolling */
-    overflow: hidden; /* Prevents scrolling */
+    overflow: hidden;
 }
 
 .container {
-    max-width: 200%;
-    height: 200vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; /* Ensures text is well spaced */
+    max-width: 90%;
 }
 
 .poem {
     font-size: 1.5em;
-    line-height: 1.1;
+    line-height: 1.2;
 }
 
 .huge {
-    font-size: 5em;
+    font-size: 6em;
     font-weight: bold;
 }
 
 .massive {
-    font-size: 6em;
+    font-size: 8em;
     font-weight: bold;
 }
 
@@ -54,8 +50,8 @@ body {
 }
 
 .spaced {
-    letter-spacing: 4px;
-    word-spacing: 15px;
+    letter-spacing: 5px;
+    word-spacing: 20px;
 }
 
 .outline {
@@ -69,20 +65,30 @@ body {
     text-align: center;
 }
 
+.right {
+    text-align: right;
+    padding-right: 10%;
+}
+
+.staggered {
+    text-align: left;
+    padding-left: 5%;
+}
+
 .wave {
     font-size: 2.5em;
-    transform: rotate(-3deg);
+    transform: rotate(-5deg);
 }
 
 .giant {
-    font-size: 4.5em;
+    font-size: 7em;
     font-weight: bold;
     text-transform: uppercase;
-    letter-spacing: 8px;
+    letter-spacing: 10px;
 }
 
 .nav {
     position: absolute;
-    bottom: 5px;
+    bottom: 10px;
     font-size: 1em;
 }
