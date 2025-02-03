@@ -1,48 +1,53 @@
 body {
     font-family: "Space Mono", monospace;
     background-color: white;
-    color: black;
+    color: darkblue; /* Single bold color */
     text-align: center;
-    margin: 50px;
-    padding: 50px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensures everything fits on one screen */
+    overflow: hidden; /* Prevent scrolling */
 }
 
 .container {
     max-width: 90%;
-    margin: auto;
 }
 
 .title {
-    font-size: 3em; /* Bigger title */
+    font-size: 2em;
     font-weight: bold;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .poem {
-    font-size: 2em; /* Make the text much bigger */
-    line-height: 2; /* Increase spacing between lines */
-    letter-spacing: 3px; /* More spacing between letters */
-    word-spacing: 10px; /* Extra spacing between words */
+    font-size: 1.5em;
+    line-height: 1.2;
 }
 
 .big {
-    font-size: 4em; /* Much bigger letter */
+    font-size: 3em;
     font-weight: bold;
 }
 
-.small {
-    font-size: 1em; /* Smaller letter */
+.huge {
+    font-size: 5em;
+    font-weight: bold;
 }
 
-.red {
-    color: red; /* Red letter */
+.tiny {
+    font-size: 0.7em;
+    opacity: 0.8;
 }
 
-.blue {
-    color: blue; /* Blue letter */
+.spaced {
+    letter-spacing: 5px;
+    word-spacing: 15px;
 }
 
 .nav {
-    margin-top: 50px;
-    font-size: 1.5em;
+    margin-top: 20px;
+    font-size: 1em;
 }
