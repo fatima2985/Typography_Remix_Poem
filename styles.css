@@ -1,99 +1,5 @@
 body {
     font-family: "Space Mono", monospace;
-    background-color: rgb(59, 217, 228);
-    color: rgb(245, 129, 21); /* Strong, single color */
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* No scrolling */
-    overflow: hidden;
-}
-
-.container {
-    max-width: 90%;
-}
-
-.poem {
-    font-size: 1.5em;
-    line-height: 1.2;
-}
-
-.huge {
-    font-size: 6em;
-    font-weight: bold;
-}
-
-.massive {
-    font-size: 8em;
-    font-weight: bold;
-}
-
-.big {
-    font-size: 3em;
-    font-weight: bold;
-}
-
-.medium {
-    font-size: 2em;
-}
-
-.tiny {
-    font-size: 0.7em;
-    opacity: 0.7;
-}
-
-.bold {
-    font-weight: 700;
-}
-
-.spaced {
-    letter-spacing: 5px;
-    word-spacing: 20px;
-}
-
-.outline {
-    font-size: 3em;
-    font-weight: bold;
-    -webkit-text-stroke: 2px darkblue;
-    color: transparent;
-}
-
-.centered {
-    text-align: center;
-}
-
-.right {
-    text-align: right;
-    padding-right: 10%;
-}
-
-.staggered {
-    text-align: left;
-    padding-left: 5%;
-}
-
-.wave {
-    font-size: 2.5em;
-    transform: rotate(-5deg);
-}
-
-.giant {
-    font-size: 7em;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 10px;
-}
-
-.nav {
-    position: absolute;
-    bottom: 10px;
-    font-size: 1em;
-}
-body {
-    font-family: "Space Mono", monospace;
     background-color: white;
     color: darkblue; /* Strong, single color */
     text-align: center;
@@ -103,29 +9,29 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh; /* No scrolling */
-    overflow: hidden;
+    overflow: hidden; /* Prevents scrolling */
 }
 
 .container {
-    max-width: 90%;
+    max-width: 85%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures text is well spaced */
 }
 
 .poem {
     font-size: 1.5em;
-    line-height: 1.2;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    line-height: 1.1;
 }
 
 .huge {
-    font-size: 6em;
+    font-size: 5em;
     font-weight: bold;
 }
 
 .massive {
-    font-size: 8em;
+    font-size: 6em;
     font-weight: bold;
 }
 
@@ -148,8 +54,8 @@ body {
 }
 
 .spaced {
-    letter-spacing: 5px;
-    word-spacing: 20px;
+    letter-spacing: 4px;
+    word-spacing: 15px;
 }
 
 .outline {
@@ -163,30 +69,20 @@ body {
     text-align: center;
 }
 
-.right {
-    text-align: right;
-    padding-right: 10%;
-}
-
-.staggered {
-    text-align: left;
-    padding-left: 5%;
-}
-
 .wave {
     font-size: 2.5em;
-    transform: rotate(-5deg);
+    transform: rotate(-3deg);
 }
 
 .giant {
-    font-size: 7em;
+    font-size: 4.5em;
     font-weight: bold;
     text-transform: uppercase;
-    letter-spacing: 10px;
+    letter-spacing: 8px;
 }
 
 .nav {
     position: absolute;
-    bottom: 10px;
+    bottom: 5px;
     font-size: 1em;
 }
