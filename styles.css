@@ -1,7 +1,7 @@
 body {
     font-family: "Space Mono", monospace;
     background-color: white;
-    color: rgb(0, 0, 0); /* Strong, single color */
+    color: darkblue; /* Strong, single color */
     text-align: center;
     margin: 0;
     padding: 0;
@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-    max-width: 95%;
+    max-width: 85%;
     height: 85vh;
     display: flex;
     flex-direction: column;
@@ -85,18 +85,4 @@ body {
     position: absolute;
     bottom: 5px;
     font-size: 1em;
-}
-.variation2 .poem {
-    text-align: center;
-}
-
-.rotate {
-    transform: rotate(-5deg);
-    font-size: 2.5em;
-}
-
-.rotate2 {
-    transform: rotate(8deg);
-    font-size: 3em;
-    font-weight: bold;
 }
