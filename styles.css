@@ -1,7 +1,7 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Space Mono", monospace;
     background-color: white;
-    color: black; /* Ensure text is visible */
+    color: black;
     text-align: center;
     margin: 50px;
 }
@@ -20,6 +20,19 @@ body {
 .poem {
     font-size: 1.2em;
     line-height: 1.5;
-    display: block; /* Ensure text is displayed */
-    color: black; /* Fix hidden text */
+}
+
+.big {
+    font-size: 2em;  /* Make this letter bigger */
+    font-weight: bold;
+    color: black;
+}
+
+.small {
+    font-size: 0.7em; /* Make this letter smaller */
+    color: gray;
+}
+
+.nav {
+    margin-top: 30px;
 }

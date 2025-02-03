@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Poem Variation 1</title>
-    <link rel="stylesheet" href="../styles.css">  <!-- Ensure correct path -->
-    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1 class="title">Poem Variation 1</h1>
+        <div class="redtext">
+        <h1 class="title">Be empty of worrying</h1>
         <p class="poem">
-            Be <span class="big">e</span>mpty of <span class="small">w</span>orrying<br>
             Think of who created thought<br>
             Why do you stay in prison<br>
             When the door is wide open?<br><br>
