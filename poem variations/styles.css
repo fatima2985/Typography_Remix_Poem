@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: white;
-    color: black;
+    color: black; /* Ensure text is visible */
     text-align: center;
     margin: 50px;
 }
@@ -20,13 +20,6 @@ body {
 .poem {
     font-size: 1.2em;
     line-height: 1.5;
-}
-
-.nav {
-    margin-top: 30px;
-    font-size: 0.9em;
-}
-.nav a {
-    text-decoration: none;
-    font-weight: bold;
+    display: block; /* Ensure text is displayed */
+    color: black; /* Fix hidden text */
 }
