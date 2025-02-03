@@ -1,38 +1,48 @@
 body {
     font-family: "Space Mono", monospace;
     background-color: white;
-    color: rgb(255, 0, 0);
+    color: black;
     text-align: center;
     margin: 50px;
+    padding: 50px;
 }
 
 .container {
-    max-width: 600px;
+    max-width: 90%;
     margin: auto;
 }
 
 .title {
-    font-size: 2em;
+    font-size: 3em; /* Bigger title */
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .poem {
-    font-size: 1.2em;
-    line-height: 1.5;
+    font-size: 2em; /* Make the text much bigger */
+    line-height: 2; /* Increase spacing between lines */
+    letter-spacing: 3px; /* More spacing between letters */
+    word-spacing: 10px; /* Extra spacing between words */
 }
 
 .big {
-    font-size: 2em;  /* Make this letter bigger */
+    font-size: 4em; /* Much bigger letter */
     font-weight: bold;
-    color: black;
 }
 
 .small {
-    font-size: 0.7em; /* Make this letter smaller */
-    color: gray;
+    font-size: 1em; /* Smaller letter */
+}
+
+.red {
+    color: red; /* Red letter */
+}
+
+.blue {
+    color: blue; /* Blue letter */
 }
 
 .nav {
-    margin-top: 30px;
+    margin-top: 50px;
+    font-size: 1.5em;
 }
