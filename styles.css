@@ -9,25 +9,29 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh; /* No scrolling */
-    overflow: hidden;
+    overflow: hidden; /* Prevents scrolling */
 }
 
 .container {
-    max-width: 90%;
+    max-width: 85%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures text is well spaced */
 }
 
 .poem {
     font-size: 1.5em;
-    line-height: 1.2;
+    line-height: 1.1;
 }
 
 .huge {
-    font-size: 6em;
+    font-size: 5em;
     font-weight: bold;
 }
 
 .massive {
-    font-size: 8em;
+    font-size: 6em;
     font-weight: bold;
 }
 
@@ -50,8 +54,8 @@ body {
 }
 
 .spaced {
-    letter-spacing: 5px;
-    word-spacing: 20px;
+    letter-spacing: 4px;
+    word-spacing: 15px;
 }
 
 .outline {
@@ -65,30 +69,20 @@ body {
     text-align: center;
 }
 
-.right {
-    text-align: right;
-    padding-right: 10%;
-}
-
-.staggered {
-    text-align: left;
-    padding-left: 5%;
-}
-
 .wave {
     font-size: 2.5em;
-    transform: rotate(-5deg);
+    transform: rotate(-3deg);
 }
 
 .giant {
-    font-size: 7em;
+    font-size: 4.5em;
     font-weight: bold;
     text-transform: uppercase;
-    letter-spacing: 10px;
+    letter-spacing: 8px;
 }
 
 .nav {
     position: absolute;
-    bottom: 10px;
+    bottom: 5px;
     font-size: 1em;
 }
