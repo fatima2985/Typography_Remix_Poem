@@ -1,7 +1,7 @@
 body {
     font-family: "Space Mono", monospace;
-    background-color: white;
-    color: darkblue; /* Single bold color */
+    background-color: rgb(28, 174, 241);
+    color: rgb(247, 129, 12); /* Single bold color */
     text-align: center;
     margin: 0;
     padding: 0;
