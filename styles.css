@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black; /* Ensure text is visible */
+    text-align: center;
+    margin: 50px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.title {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.poem {
+    font-size: 1.2em;
+    line-height: 1.5;
+    display: block; /* Ensure text is displayed */
+    color: black; /* Fix hidden text */
+}
