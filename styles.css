@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin: 50px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.title {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.poem {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+.nav {
+    margin-top: 30px;
+    font-size: 0.9em;
+}
+.nav a {
+    text-decoration: none;
+    font-weight: bold;
+}
