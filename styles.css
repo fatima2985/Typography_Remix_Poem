@@ -1,88 +1,136 @@
 body {
     font-family: "Space Mono", monospace;
     background-color: white;
-    color: darkblue; /* Strong, single color */
+    color: black; /* Only black text */
     text-align: center;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh; /* No scrolling */
-    overflow: hidden; /* Prevents scrolling */
+    align-items: center;<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Poem Variation 3</title>
+        <link rel="stylesheet" href="styles.css">  
+        <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="poem">
+                <p><span class="wave">B</span>e <span class="big">empty</span> of worrying</p>
+                <p>Think of <span class="spaced">who</span> created thought</p>
+                <p class="outline">Why do you <span class="tiny">stay</span> in prison</p>
+                <p class="bold">When the door is <span class="medium">wide</span> open?</p>
+                <p>Move outside the <span class="huge">tangle</span> of fear thinking.</p>
+                <p class="giant">Live in silence.</p>
+                <p class="centered">Flow down and down in always</p>
+                <p class="bold">Widening rings of being.</p>
+            </div>
+        </div>
+        <div class="nav">
+            <p>Author: Rumi</p>
+            <a href="variation2.html">← Previous Variation</a>
+        </div>
+    </body>
+    </html>
+    
+    height: 100vh;
+    overflow: hidden; /* Prevent scrolling */
 }
 
 .container {
-    max-width: 85%;
-    height: 85vh;
+    max-width: 60%;
+    height: 75vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Ensures text is well spaced */
+    justify-content: center;
+    align-items: center;
 }
 
-.poem {
-    font-size: 1.5em;
-    line-height: 1.1;
-}
+/* Typography Variations */
+.huge { font-size: 4em; font-weight: bold; }
+.massive { font-size: 5em; font-weight: bold; }
+.big { font-size: 2.5em; font-weight: bold; }
+.medium { font-size: 1.8em; }
+.tiny { font-size: 0.8em; opacity: 0.7; }
+.bold { font-weight: 700; }
+.spaced { letter-spacing: 3px; word-spacing: 10px; }
+.outline { font-size: 2.5em; font-weight: bold; -webkit-text-stroke: 2px black; color: transparent; }
+.centered { text-align: center; }
+.wave { font-size: 2em; transform: rotate(-3deg); }
+.giant { font-size: 3.5em; font-weight: bold; text-transform: uppercase; letter-spacing: 6px; }
 
-.huge {
-    font-size: 5em;
-    font-weight: bold;
-}
-
-.massive {
-    font-size: 6em;
-    font-weight: bold;
-}
-
-.big {
-    font-size: 3em;
-    font-weight: bold;
-}
-
-.medium {
-    font-size: 2em;
-}
-
-.tiny {
-    font-size: 0.7em;
-    opacity: 0.7;
-}
-
-.bold {
-    font-weight: 700;
-}
-
-.spaced {
-    letter-spacing: 4px;
-    word-spacing: 15px;
-}
-
-.outline {
-    font-size: 3em;
-    font-weight: bold;
-    -webkit-text-stroke: 2px darkblue;
-    color: transparent;
-}
-
-.centered {
-    text-align: center;
-}
-
-.wave {
-    font-size: 2.5em;
-    transform: rotate(-3deg);
-}
-
-.giant {
-    font-size: 4.5em;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 8px;
-}
-
+/* Navigation Fix */
 .nav {
-    position: absolute;
-    bottom: 5px;
+    position: relative;
+    margin-top: 20px;
     font-size: 1em;
+    text-align: center;body {
+        font-family: "Space Mono", monospace;
+        background-color: white;
+        color: black; /* Only black text */
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        overflow: hidden; /* Prevent scrolling */
+    }
+    
+    .container {
+        max-width: 60%;
+        height: 75vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    /* Typography Variations */
+    .huge { font-size: 4em; font-weight: bold; }
+    .massive { font-size: 5em; font-weight: bold; }
+    .big { font-size: 2.5em; font-weight: bold; }
+    .medium { font-size: 1.8em; }
+    .tiny { font-size: 0.8em; opacity: 0.7; }
+    .bold { font-weight: 700; }
+    .spaced { letter-spacing: 3px; word-spacing: 10px; }
+    .outline { font-size: 2.5em; font-weight: bold; -webkit-text-stroke: 2px black; color: transparent; }
+    .centered { text-align: center; }
+    .wave { font-size: 2em; transform: rotate(-3deg); }
+    .giant { font-size: 3.5em; font-weight: bold; text-transform: uppercase; letter-spacing: 6px; }
+    
+    /* Navigation Fix */
+    .nav {
+        position: relative;
+        margin-top: 20px;
+        font-size: 1em;
+        text-align: center;
+    }
+    
+    .nav a {
+        text-decoration: none;
+        color: black; /* Only black text */
+        font-weight: bold;
+        margin: 0 10px;
+    }
+    
+    .nav a:hover {
+        text-decoration: underline;
+    }
+    
+}
+
+.nav a {
+    text-decoration: none;
+    color: black; /* Only black text */
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
 }
