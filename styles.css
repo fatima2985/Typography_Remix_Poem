@@ -61,3 +61,26 @@ body {
 .nav a:hover {
     text-decoration: underline;
 }
+/* For Variation 5 - Boldly Bold */
+.super-bold {
+    font-weight: 900; /* Very heavy boldness */
+    text-transform: uppercase;
+    letter-spacing: 2px; /* More spacing for drama */
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3); /* Shadow effect to enhance boldness */
+}
+
+.extra-bold {
+    font-weight: 900; /* Extra bold */
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.variation-title {
+    font-size: 1.5em;
+    font-weight: 900;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    color: black;
+}
