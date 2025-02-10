@@ -119,3 +119,75 @@ body {
     text-transform: uppercase;
     color: black;
 }
+/* Variation 6 - Different Opacity for Each Word */
+.variation6 .poem span {
+    opacity: 0.2;
+}
+
+.variation6 .poem span:nth-child(2n) {
+    opacity: 0.4;
+}
+
+.variation6 .poem span:nth-child(3n) {
+    opacity: 0.6;
+}
+
+.variation6 .poem span:nth-child(4n) {
+    opacity: 0.8;
+}
+
+.variation6 .poem span:nth-child(5n) {
+    opacity: 1;
+}
+.variation6 .poem span {
+    display: inline-block;
+    opacity: calc(0.2 + (0.8 * var(--opacity-level, 1)));
+    transition: opacity 0.5s ease-in-out;
+}
+
+/* Assigning different opacity levels */
+.variation6 .poem span:nth-child(1) { --opacity-level: 0.9; }
+.variation6 .poem span:nth-child(2) { --opacity-level: 0.3; }
+.variation6 .poem span:nth-child(3) { --opacity-level: 0.7; }
+.variation6 .poem span:nth-child(4) { --opacity-level: 0.5; }
+.variation6 .poem span:nth-child(5) { --opacity-level: 0.2; }
+.variation6 .poem span:nth-child(6) { --opacity-level: 0.8; }
+.variation6 .poem span:nth-child(7) { --opacity-level: 0.4; }
+.variation6 .poem span:nth-child(8) { --opacity-level: 1; }
+.variation6 .poem span:nth-child(9) { --opacity-level: 0.6; }
+.variation6 .poem span:nth-child(10) { --opacity-level: 0.3; }
+.variation6 .poem span:nth-child(11) { --opacity-level: 0.9; }
+.variation6 .poem span:nth-child(12) { --opacity-level: 0.4; }
+.variation6 .poem span:nth-child(13) { --opacity-level: 0.7; }
+.variation6 .poem span:nth-child(14) { --opacity-level: 0.2; }
+.variation6 .poem span:nth-child(15) { --opacity-level: 0.8; }
+
+/* Variation 7 - Emphasized Words */
+.variation7 .poem span {
+    opacity: 0.3;
+}
+
+.variation7 .poem .emphasized {
+    opacity: 1;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* Variation 8 - Creative Artistic Opacity */
+.variation8 .poem span {
+    opacity: 0.2;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.variation8 .poem span:hover {
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+.variation8 .poem {
+    filter: blur(1px);
+}
+
+.variation8 .poem:hover {
+    filter: blur(0px);
+}
