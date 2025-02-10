@@ -191,3 +191,25 @@ body {
 .variation8 .poem:hover {
     filter: blur(0px);
 }
+.variation9 .poem span {
+    display: inline-block;
+    transform: rotate(var(--rotation, 0deg));
+    transition: transform 0.5s ease-in-out;
+}
+
+/* Assigning different rotation angles */
+.variation9 .poem span:nth-child(1) { --rotation: -10deg; }
+.variation9 .poem span:nth-child(2) { --rotation: 15deg; }
+.variation9 .poem span:nth-child(3) { --rotation: -5deg; }
+.variation9 .poem span:nth-child(4) { --rotation: 20deg; }
+.variation9 .poem span:nth-child(5) { --rotation: -15deg; }
+.variation9 .poem span:nth-child(6) { --rotation: 10deg; }
+.variation9 .poem span:nth-child(7) { --rotation: -8deg; }
+.variation9 .poem span:nth-child(8) { --rotation: 12deg; }
+.variation9 .poem span:nth-child(9) { --rotation: -12deg; }
+.variation9 .poem span:nth-child(10) { --rotation: 18deg; }
+.variation9 .poem span:nth-child(11) { --rotation: -20deg; }
+.variation9 .poem span:nth-child(12) { --rotation: 5deg; }
+.variation9 .poem span:nth-child(13) { --rotation: -25deg; }
+.variation9 .poem span:nth-child(14) { --rotation: 8deg; }
+.variation9 .poem span:nth-child(15) { --rotation: -7deg; }
