@@ -223,6 +223,22 @@ body {
     display: inline-block;
     transform: rotate(10deg);
 }
+.variation10 .poem span {
+    display: inline-block;
+}
+
+.slant-left {
+    transform: rotate(-10deg);
+    position: relative;
+    left: -5px;
+}
+
+.slant-right {
+    transform: rotate(10deg);
+    position: relative;
+    right: -5px;
+}
+
 /* Variation 11 - Expanding Whisper */
 .variation11 .poem span {
     display: inline-block;
