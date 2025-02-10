@@ -268,3 +268,18 @@ body {
 .variation13 .poem span:last-child {
     letter-spacing: 30px;
 }
+.variation13 .poem span {
+    display: inline-block;
+}
+
+.chaos {
+    letter-spacing: 3px;
+}
+
+.chaos-big {
+    letter-spacing: 12px;
+}
+
+.chaos-small {
+    letter-spacing: -1px;
+}
