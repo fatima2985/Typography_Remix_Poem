@@ -213,3 +213,13 @@ body {
 .variation9 .poem span:nth-child(13) { --rotation: -25deg; }
 .variation9 .poem span:nth-child(14) { --rotation: 8deg; }
 .variation9 .poem span:nth-child(15) { --rotation: -7deg; }
+
+.variation10 .poem span:nth-child(odd) {
+    display: inline-block;
+    transform: rotate(-10deg);
+}
+
+.variation10 .poem span:nth-child(even) {
+    display: inline-block;
+    transform: rotate(10deg);
+}
