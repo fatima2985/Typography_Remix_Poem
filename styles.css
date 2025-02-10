@@ -322,3 +322,23 @@ body {
 .chaos-small {
     letter-spacing: -1px;
 }
+.variation14 .serif {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4em;
+}
+
+.variation14 .sans {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+}
+
+.variation14 .script {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+    color: #D97706;
+}
+.variation15 .anton { font-family: 'Anton', sans-serif; font-size: 1.5em; }
+.variation15 .indie { font-family: 'Indie Flower', cursive; font-size: 1.3em; }
+.variation15 .pacifico { font-family: 'Pacifico', cursive; font-size: 1.4em; }
+.variation15 .courier { font-family: 'Courier Prime', monospace; font-size: 1.2em; }
+.variation15 .orbitron { font-family: 'Orbitron', sans-serif; font-size: 1.5em; color: #D97706; }
