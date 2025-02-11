@@ -371,6 +371,7 @@ body {
 .chaotic p:hover {
     transform: rotate(0deg) scale(1.1);
 }
+
 /* Variation 18 - Staircase Alignment */
 .staircase p {
     font-size: 1.5em;
@@ -407,6 +408,29 @@ body {
     line-height: 1.3;
     transition: transform 0.3s ease-in-out;
 }
+.variation19 .poem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.variation19 p {
+    position: absolute;
+    font-size: 1.2em;
+    width: max-content;
+    white-space: nowrap;
+}
+
+.variation19 .line1 { top: 5%; left: 40%; transform: rotate(-10deg); }
+.variation19 .line2 { top: 15%; left: 50%; transform: rotate(-5deg); }
+.variation19 .line3 { top: 25%; left: 30%; transform: rotate(5deg); }
+.variation19 .line4 { top: 35%; left: 55%; transform: rotate(10deg); }
+.variation19 .line5 { top: 50%; left: 35%; transform: rotate(-10deg); }
+.variation19 .line6 { top: 60%; left: 50%; transform: rotate(-5deg); }
+.variation19 .line7 { top: 75%; left: 40%; transform: rotate(5deg); }
+.variation19 .line8 { top: 85%; left: 50%; transform: rotate(10deg); }
+
 /* Variation 20 - Interactive Floating Text */
 .interactive p {
     font-size: 1.5em;
